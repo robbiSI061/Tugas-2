@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulir</title>
+    <link href="forms.png" rel="shortcut icon">
+    <link rel="stylesheet" type="text/css" href="Tugas2.2.css">
+</head>
+<body>
+    <h1 class="judul"><center>Form Biodata</center></h1>
+    <p style="color:ivory; font-family: Lucida Sans"><center>Silahkan isi form di bawah ini dengan baik!</center></p>
+    <form action="kontak.html" method="get"><center>
+        Nama : 
+        <br>
+        <input type="text" name="nama" style="width: 200px"/>
+        <br/>
+    </center>
+    <center>
+        Jenis Kelamin :
+        <br>
+    </center>
+    <center>
+        <input type="radio" name="jenis_kelamin" value="Laki-Laki" checked/>
+        Laki-Laki
+        <input type="radio" name="jenis_kelamin" value="Perempuan"/>
+        Perempuan
+        </br>
+    </center>
+    <center>
+        Email :
+        <br>
+        <input type="text" name="email" style="width: 200px"/>
+        </br>
+    </center>
+    <center>
+        Alamat :
+        <br>
+        <textarea type="text" name="alamat" style="width: 200px; height:50px"></textarea>
+        </br>
+    </center>
+    <center>
+        Asal Kota :
+        <br>
+        <select name="kota" style="width: 200px">
+            <option>Surabaya</option>
+            <option selected>Jakarta</option>
+            <option>Bandung</option>
+            <option>Jember</option>
+            <option>Depok</option>
+            <option>Yogyakarta</option>
+        </select>
+        </br>
+    </center>   
+    <center>
+        Pesan :
+        <br>
+        <textarea name="pesan" rows="5" cols="20" style="width:200px">
+            
+tulis pesan...
+        </textarea>
+        </br>
+        <input type="submit" value="Simpan">
+        <br>
+        </br>
+    
+    </form>
+</body>
+</html>
